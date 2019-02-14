@@ -1,0 +1,25 @@
+.head{
+  background-color:#808080;
+  height: 120px;
+  width: 70%;
+  padding: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#eb7e7f;
+  font-family: sans-serif;
+ 
+}
+.radio_button{
+font-family: sans-serif;
+height: 100px;
+width: 70%;
+padding: 20px 0px;
+background-color:#696969;
+margin-left: auto;
+margin-right: auto;
+color:white;
+ }
+ .bon_appetit{
+ 	background-color:#696969;
+ 	color:#eb7e7f;
+ }
