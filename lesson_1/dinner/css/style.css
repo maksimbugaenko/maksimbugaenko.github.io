@@ -1,12 +1,17 @@
+
+@font-face {
+ font-family: "MissFajardose-Regular";
+ src: url("/fonts/MissFajardose-Regular/MissFajardose-Regular.woff2") format("woff2")
+
 .head{
-  background-color:#808080;
-  height: 120px;
+  background-color:black;
+    height: 120px;
   width: 70%;
   padding: 20px 0px;
   margin-left: auto;
   margin-right: auto;
   color:#eb7e7f;
-  font-family: sans-serif;
+  font-family: 'MissFajardose-Regular', cursive;
  }
 .radio_button{
 font-family: sans-serif;
@@ -17,8 +22,12 @@ background-color:#696969;
 margin-left: auto;
 margin-right: auto;
 color:white;
+font-family:'MissFajardose-Regular', cursive;;
  }
  .bon_appetit{
  	background-color:#696969;
  	color:#eb7e7f;
+ 	cursor: pointer;
+	border: none;
  }
+ radio
