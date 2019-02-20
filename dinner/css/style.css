@@ -1,33 +1,49 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*table{
+	border-collapse: collapse;
+	border-bottom: 2px solid lightgray;
+}*/
 
-@font-face {
- font-family: "MissFajardose-Regular";
- src: url("/fonts/MissFajardose-Regular/MissFajardose-Regular.woff2") format("woff2")
+html, body {
+	height: 100%;
+}
 
-.head{
-  background-color:black;
-    height: 120px;
-  width: 70%;
-  padding: 20px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  color:#eb7e7f;
-  font-family: 'MissFajardose-Regular', cursive;
- }
-.radio_button{
-font-family: sans-serif;
-height: 100px;
-width: 70%;
-padding: 20px 0px;
-background-color:#696969;
-margin-left: auto;
-margin-right: auto;
-color:white;
-font-family:'MissFajardose-Regular', cursive;;
- }
- .bon_appetit{
- 	background-color:#696969;
- 	color:#eb7e7f;
- 	cursor: pointer;
-	border: none;
- }
- radio
+body {
+	font-size: 100%;
+	font-family: sans-serif;
+	color: white; }
+	.obed{
+		background-color: #3B3F45;
+		border: 20px solid white;
+		min-height: 100%;
+	}
+	.obed__header{
+		background-color: #4A4F56;
+		padding: 20px 0;
+		margin-bottom: 1.5rem;
+		color: #eb7e7f;
+	}
+
+/*.obed_button {
+      min-height: 50px;
+      display: block;
+      padding-left: 15px;
+      background-color: #7a7593;
+      border: 2px solid transparent;
+      border-left: none;
+      border-right: none;
+      cursor: pointer;
+      line-height: 2.9; }
+      .obed_button > * {
+        vertical-align: middle; }
+      .obed_button > *:not(:last-child) {
+        margin-right: .5rem; }
+      .obed_button:active {
+        background-color: #eb7e7f !important; }
+      .obed_button:hover {
+        border-color: white; }*/
