@@ -1,0 +1,89 @@
+.pogoda{
+	max-width: 900px;
+	margin: auto;
+}
+header{
+	display: block;
+}
+h1 {
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+.main_ul{
+	text-align: center;
+	padding: 0;
+	font-size: 0;
+	border: 3px solid white;
+}
+li{
+	display: inline-block;
+	border: 3px solid white;
+}
+.main_ul_li_50{
+	width: 50%;
+}
+.main_ul_li_25{
+	width: 25%;
+}
+.main_ul_li_100{
+	width:100%;
+}
+a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 24px;
+	padding: 0.5em 0;
+}
+body {
+	margin: 0;
+	border: 1em solid #2B81AC; 
+	background: #3399CC;
+	color: white;
+	font-family: sans-serif;
+}
+.lisbon{
+	background: #3399CC;
+}
+.paris{
+	background: #33CCCC;
+}
+.belgrad {
+	background: #996699;
+}
+.moscow{
+	background: #C24747;
+}
+.telaviv{
+	background: #E2674A;
+}
+.cair{
+	background: #FFCC66;
+}
+.newyork{
+	background: #99CC99;
+}
+.newdelhi{
+	background: #669999;
+}
+.sanfrancisco{
+	background: #CC6699;
+}
+.tokyo{
+	background: #339966;
+}
+.sydney{
+	background: #666699;
+}
+ul:hover li {
+	opacity: 0.5;
+}
+
+ul li:hover {
+	opacity: 1;
+}
