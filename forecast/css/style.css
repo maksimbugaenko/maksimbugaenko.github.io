@@ -40,12 +40,16 @@ a {
 	font-size: 24px;
 	padding: 0.5em 0;
 }
+html{
+	min-height: 100hv;
+}
 body {
 	margin: 0;
 	border: 1em solid #2B81AC; 
 	background: #3399CC;
 	color: white;
 	font-family: sans-serif;
+	min-height: 100hv;
 }
 .lisbon{
 	background: #3399CC;
