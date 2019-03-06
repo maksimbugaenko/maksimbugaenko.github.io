@@ -1,15 +1,6 @@
-.div{
-	max-width: 1140px;
-	margin: auto;
-	display: inline-block;
-}
-.search{
-
-	font-size: 50%;
-
-}
-.placeholder{
-	font-weight: bold;
-	width: calc(100% - 116px);
-	color: #ec5a62;
-}
+@import "color";
+@import "_main";
+@import "_first-screen";
+@import "_topline";
+@import "mixins";
+@import "portfolio";

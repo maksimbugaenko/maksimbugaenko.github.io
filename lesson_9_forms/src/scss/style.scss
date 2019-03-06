@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	min-height: 100vh;
+}
+body{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
+}
+form{
+	background: white;
+	color: black;
+	padding: 15px;
+	border-radius: 10px;
+	min-width: 40%;
+}
+fieldset{
+	padding: 30px;
+	&>*{
+		display: block;
+	}
+
+}
+
+[id]{
+	margin-bottom: 1rm;
+	border-radius: 5px;
+}
+[type="submit"]{
+	border-radius: 10px;
+	background-color:#648888;
+	border-color:#648888;
+	color: white;
+	text:transform;
+	
+
+}
+input select{
+	padding: 5px;
+	zoom:10;
+}
+input :not([type="submit"]),
+textarea{
+	width: 100%;
+}

@@ -1,0 +1,40 @@
+@import url(_topline.css);
+.top-line {
+    position: fixed;
+    
+    .logo {
+
+        &__link {
+            display: block;
+        }
+        
+        &__img {
+
+        }
+    }
+
+    .navigation {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            flex-basis: 100%;
+
+            &__item {
+                list-style: none;
+                position: relative;
+                min-width: 60px;                
+
+                &:not(:last-child) {
+
+                    &::after {
+                        content: "/";
+                        position: absolute;
+                        top: 0;
+                        right: -100%;
+                    }
+                }
+            }

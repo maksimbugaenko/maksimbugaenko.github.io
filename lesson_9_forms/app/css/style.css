@@ -1,0 +1,81 @@
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    min-height: 100vh;
+}
+
+body
+{
+    font-family: sans-serif; 
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    color: white;
+    background-color: black;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+form
+{
+    min-width: 40%; 
+    padding: 15px;
+
+    color: black;
+    border-radius: 10px;
+    background: white;
+}
+
+fieldset
+{
+    padding: 30px;
+}
+fieldset > *
+{
+    display: block;
+}
+
+[id]
+{
+    margin-bottom: 1rm;
+
+    border-radius: 5px;
+}
+
+[type='submit']
+{
+    color: white;
+    border-color: #648888;
+    border-radius: 10px;
+    background-color: #648888;
+
+    text: transform;
+}
+
+input select
+{
+    zoom: 10; 
+
+    padding: 5px;
+}
+
+input :not([type='submit']),
+textarea
+{
+    width: 100%;
+}
