@@ -28,14 +28,14 @@ body {
 	height: 116px;
 	border: none;
 	background-color: transparent;
-	background-image: url('../images/favicon.png.');
+	background-image: url('../images/search.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 80%;
 }
-.table_1,.table_2,.table_3{
+.table_1,.table_2{
 	display: inline-block;
-	min-width: 25%;
+	min-width: 31%;
 	margin-right: 2rem;
 }
 h2{
@@ -61,17 +61,43 @@ h3{
 	font-size: 15px;
 	font-weight: 600;
 	display: block;
+	text-decoration-line: none;
+	vertical-align: middle;
 }
 .list1_item,.list2_item,.list3_item {
 	margin-bottom: .5rem;
 }
 *a{
-	display: flex;
+	display: flex;	
 }
 .link_img_circle{
 	border-radius: 50%;
+	vertical-align: middle;
 }
 .table a:hover {
 	background-color:  rgba(118,117,128,0.1);
 	color: #ec5a62;
+}
+.table_3{
+	margin-right: 0;
+	display: inline-block;
+	min-width: 25%;
+}
+img{
+	vertical-align: middle;
+}
+.form_search::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+
+.form_search::-moz-placeholder {
+	color: #c2c2c2;
+}
+
+.form_search::-moz-placeholder {
+	color: #c2c2c2;
+}
+
+.form_search::-ms-input-placeholder {
+	color: #c2c2c2;
 }
