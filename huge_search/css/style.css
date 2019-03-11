@@ -14,7 +14,7 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	margin: 0 auto;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 }
 .form_search{
 	width: 100%;
@@ -33,6 +33,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 80%;
+	cursor: pointer;
 }
 .table_1,.table_2{
 	display: inline-block;
@@ -40,12 +41,13 @@ body {
 	margin-right: 2rem;
 }
 h2{
-	font-size: 1.5rem;
-	font-weight: 900;
-	margin-bottom: 1rem;
+	color: #c2c2c2; 
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
 	text-transform: uppercase;
-	display: inline-block;
-	vertical-align: middle;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
 }
 h3{
 	/*margin-left: 13px;*/
@@ -112,3 +114,5 @@ img{
 .form_search::-ms-input-placeholder {
 	color: #c2c2c2;
 }
+.form_button:hover {
+	transform: translate3d(0,0,0) scale(1.1);
