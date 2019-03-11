@@ -14,6 +14,7 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	margin: 0 auto;
+	margin-bottom: 4rem;
 }
 .form_search{
 	width: 100%;
@@ -24,7 +25,7 @@ body {
 	color: #ec5a62;
 }
 .form_button{
-	width: 116px;
+	width: 129px;
 	height: 116px;
 	border: none;
 	background-color: transparent;
@@ -47,7 +48,7 @@ h2{
 	vertical-align: middle;
 }
 h3{
-	margin-left: 13px;
+	/*margin-left: 13px;*/
 	display: inline-block;
 	vertical-align: middle;
 	text-decoration: none;
@@ -63,6 +64,15 @@ h3{
 	display: block;
 	text-decoration-line: none;
 	vertical-align: middle;
+}
+.list1_item:last-child{
+	margin-bottom: 0rem ;
+}
+.list2_item:last-child{
+	margin-bottom: 0rem ;
+}
+.list3_item:last-child{
+	margin-bottom: 0rem ;
 }
 .list1_item,.list2_item,.list3_item {
 	margin-bottom: .5rem;
@@ -85,6 +95,7 @@ h3{
 }
 img{
 	vertical-align: middle;
+	margin-right: .5rem;
 }
 .form_search::-webkit-input-placeholder {
 	color: #c2c2c2;
