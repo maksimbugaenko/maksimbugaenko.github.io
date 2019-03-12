@@ -1,347 +1,71 @@
-@import "mixin";
-
-*{
-  box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body{
-  min-height: 600px;
+  min-height: 100hv;
 }
 
-.board
-{
+.board{
  position: relative;
+ width: 100%;
+ max-width: 500px;
  height: 500px;
- width: 500px;
- right: 0px;
- top: 40px;
- left: 370px;
- outline: 10px solid black;
+ margin: auto;
+ border: 10px solid black;
+}
+ul li{
+ text-decoration: none;
+}
+.row__black{
+  float: left;
+  position: relative;
+  width: 62.5px;
+  height: 62.5px;
+  background-color: black;
+}
+.row__white{
+  float: left;
+  position: relative;
+  width: 62.5px;
+  height: 62.5px;
+  background-color: white;
+}
+.board__row_1{
+  position:absolute; 
+  top: 0%;
+}
+.board__row_2{
+  position:absolute; 
+  top: 12.5%;
+}
+.board__row_3{
+  position:absolute; 
+  top: 25%;
+}
+.board__row_4{
+  position:absolute; 
+  top: 37.5%;
+}
+.board__row_5{
+  position:absolute; 
+  top: 50%;
+}
+.board__row_6{
+  position:absolute; 
+  top: 62.5%;
+}
+.board__row_7{
+  position:absolute; 
+  top: 75%;
+}
+.board__row_8{
+  position:absolute; 
+  top: 87.5%;
 }
 
-/*:nth-child(2n){
-    background: black;
-    }
-:nth-child(2n+1) {
-    background: white;
-    }*/
 
-    //  row1//////////////////////
-    .item1{
-     @include _black;
-     top: 0;
-   }
-   .item2{
-    @include _white;
-    top: 0;
-    left: 12.5%;
-  }
-  .item3{
-    @include _black;
-    top: 0;
-    left: 25%;
-  }
-  .item4{
-    @include _white;
-    top: 0;
-    left: 37.5%;
-  }
-  .item5{
-    @include _black;
-    top: 0;
-    left: 50%;  
-  }
-  .item6{
-    @include _white;    
-    top: 0;
-    left: 62.5%;
-  }
-  .item7{
-    @include _black;
-    top: 0;
-    left: 75%;    
-  }
-  .item8{
-    @include _white;
-    top: 0;
-    left: 87.5%;    
-  }
-// row2////////////////////
-.item9{
-  @include _white;
-  top: 12.5%;
-}
-.item10{
- @include _black;
- top: 12.5%;
- left: 12.5%;
-}
-.item11{
- @include _white;
- top: 12.5%;
- left: 25%;
-}
-.item12{
-  @include _black;
-  top: 12.5%;
-  left: 37.5%; 
-}
-.item13{
-  @include _white; 
-  top: 12.5%;
-  left: 50%;
-}
-.item14{
-  @include _black;
-  top: 12.5%;
-  left: 62.5%;
-}
-.item15{
-  @include _white;
-  top: 12.5%;
-  left: 75%;
-}
-.item16{
-  @include _black;
-  top: 12.5%;
-  left: 87.5%;  
-}
-//row3///////////////////
-.item17{
- @include _black;
- top: 25%;
-}
-.item18{
-  @include _white;
-  top: 25%;
-  left: 12.5%;
-}
-.item19{
-  @include _black;
-  top: 25%;
-  left: 25%;
-}
-.item20{
-  @include _white;
-  top: 25%;
-  left: 37.5%;
-}
-.item21{
-  @include _black;
-  top: 25%;
-  left: 50%;  
-}
-.item22{
-  @include _white;    
-  top: 25%;
-  left: 62.5%;
-}
-.item23{
-  @include _black;
-  top: 25%;
-  left: 75%;    
-}
-.item24{
-  @include _white;
-  top: 25%;
-  left: 87.5%;    
-}
- //row4/////////////////
- .item25{
-  @include _white;
-  top: 37.5%;
-}
-.item26{
- @include _black;
- top: 37.5%;
- left: 12.5%;
-}
-.item27{
- @include _white;
- top: 37.5%;
- left: 25%;
-}
-.item28{
-  @include _black;
-  top: 37.5%;
-  left: 37.5%; 
-}
-.item29{
-  @include _white; 
-  top: 37.5%;
-  left: 50%;
-}
-.item30{
-  @include _black;
-  top: 37.5%;
-  left: 62.5%;
-}
-.item31{
-  @include _white;
-  top: 37.5%;
-  left: 75%;
-}
-.item32{
-  @include _black;
-  top: 37.5%;
-  left: 87.5%;  
-}
-///row5///////////////////
-.item33{
- @include _black;
- top: 50%;
-}
-.item34{
-  @include _white;
-  top: 50%;
-  left: 12.5%;
-}
-.item35{
-  @include _black;
-  top: 50%;
-  left: 25%;
-}
-.item36{
-  @include _white;
-  top: 50%;
-  left: 37.5%;
-}
-.item37{
-  @include _black;
-  top: 50%;
-  left: 50%;  
-}
-.item38{
-  @include _white;    
-  top: 50%;
-  left: 62.5%;
-}
-.item39{
-  @include _black;
-  top: 50%;
-  left: 75%;    
-}
-.item40{
-  @include _white;
-  top: 50%;
-  left: 87.5%;    
-}
-////row6/////////
-.item41{
-  @include _white;
-  top: 62.5%;
-}
-.item42{
- @include _black;
- top: 62.5%;
- left: 12.5%;
-}
-.item43{
- @include _white;
- top: 62.5%;
- left: 25%;
-}
-.item44{
-  @include _black;
-  top: 62.5%;
-  left: 37.5%; 
-}
-.item45{
-  @include _white; 
-  top: 62.5%;
-  left: 50%;
-}
-.item46{
-  @include _black;
-  top: 62.5%;
-  left: 62.5%;
-}
-.item47{
-  @include _white;
-  top: 62.5%;
-  left: 75%;
-}
-.item48{
-  @include _black;
-  top: 62.5%;
-  left: 87.5%;  
-}
-/////row7///////
-.item49{
- @include _black;
- top: 75%;
-}
-.item50{
-  @include _white;
-  top: 75%;
-  left: 12.5%;
-}
-.item51{
-  @include _black;
-  top: 75%;
-  left: 25%;
-}
-.item52{
-  @include _white;
-  top: 75%;
-  left: 37.5%;
-}
-.item53{
-  @include _black;
-  top: 75%;
-  left: 50%;  
-}
-.item54{
-  @include _white;    
-  top: 75%;
-  left: 62.5%;
-}
-.item55{
-  @include _black;
-  top: 75%;
-  left: 75%;    
-}
-.item56{
-  @include _white;
-  top: 75%;
-  left: 87.5%;    
-}
-///row8///////////
-.item57{
-  @include _white;
-  top: 87.5%;
-}
-.item58{
- @include _black;
- top: 87.5%;
- left: 12.5%;
-}
-.item59{
- @include _white;
- top: 87.5%;
- left: 25%;
-}
-.item60{
-  @include _black;
-  top: 87.5%;
-  left: 37.5%; 
-}
-.item61{
-  @include _white; 
-  top: 87.5%;
-  left: 50%;
-}
-.item62{
-  @include _black;
-  top: 87.5%;
-  left: 62.5%;
-}
-.item63{
-  @include _white;
-  top: 87.5%;
-  left: 75%;
-}
-.item64{
-  @include _black;
-  top: 87.5%;
-  left: 87.5%;
-}
+
+
+
