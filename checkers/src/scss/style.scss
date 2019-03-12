@@ -1,3 +1,5 @@
+@import "mixin";
+
 * {
   margin: 0;
   padding: 0;
@@ -18,51 +20,115 @@ body{
 ul li{
  text-decoration: none;
 }
-.row__black{
-  float: left;
-  position: relative;
-  width: 62.5px;
-  height: 62.5px;
-  background-color: black;
-}
-.row__white{
-  float: left;
-  position: relative;
-  width: 62.5px;
-  height: 62.5px;
-  background-color: white;
-}
+// .board__row.row__black{
+//   // float: left;
+//   position: relative;
+//   width: 62.5px;
+//   height: 62.5px;
+//   background-color: black;
+// }
+// .board__row.row__white{
+//   // float: left;
+//   position: relative;
+//   width: 62.5px;
+//   height: 62.5px;
+//   background-color: white;
+
 .board__row_1{
-  position:absolute; 
+  position:relative; 
   top: 0%;
 }
 .board__row_2{
-  position:absolute; 
+  position:relative; 
   top: 12.5%;
 }
 .board__row_3{
-  position:absolute; 
+  position:relative; 
   top: 25%;
 }
 .board__row_4{
-  position:absolute; 
+  position:relative; 
   top: 37.5%;
 }
 .board__row_5{
-  position:absolute; 
+  position:relative; 
   top: 50%;
 }
 .board__row_6{
-  position:absolute; 
+  position:relative; 
   top: 62.5%;
 }
 .board__row_7{
-  position:absolute; 
+  position:relative; 
   top: 75%;
 }
 .board__row_8{
-  position:absolute; 
+  position:relative; 
   top: 87.5%;
+}
+.row__black_1{
+  left: 0%;
+  @include _black;
+}
+.row__white_2{
+ @include _white;
+ left:12.5%; 
+}
+.row__black_3{
+  @include _black;
+  left: 25%;
+}
+.row__white_4{
+  @include _white;
+  left: 37.5%;
+}
+.row__black_5{
+  @include _black;
+  left: 50%;
+}
+.row__white_6{
+  @include _white;
+  left: 62.5%;
+}
+.row__black_7{
+  @include _black;
+  left: 75%;
+}
+.row__white_8{
+  @include _white;
+  left: 87.5%;
+}
+.row__white_1{
+  left: 0%;
+  @include _white;
+}
+.row__black_2{
+  @include _black;
+ left:12.5%; 
+}
+.row__white_3{
+  @include _white;
+  left: 25%;
+}
+.row__black_4{
+  @include _black;
+  left: 37.5%;
+}
+.row__white_5{
+  @include _white;
+  left: 50%;
+}
+.row__black_6{
+  @include _black;
+  left: 62.5%;
+}
+.row__white_7{
+  @include _white;
+  left: 75%;
+}
+.row__black_8{
+  @include _black;
+  left: 87.5%;
 }
 
 

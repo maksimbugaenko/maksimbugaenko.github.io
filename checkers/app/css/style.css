@@ -20,58 +20,170 @@ ul li {
 	text-decoration: none;
 }
 
-.row__black {
-	float: left;
+.board__row_1 {
 	position: relative;
+	top: 0;
+}
+
+.board__row_2 {
+	position: relative;
+	top: 12.5%;
+}
+
+.board__row_3 {
+	position: relative;
+	top: 25%;
+}
+
+.board__row_4 {
+	position: relative;
+	top: 37.5%;
+}
+
+.board__row_5 {
+	position: relative;
+	top: 50%;
+}
+
+.board__row_6 {
+	position: relative;
+	top: 62.5%;
+}
+
+.board__row_7 {
+	position: relative;
+	top: 75%;
+}
+
+.board__row_8 {
+	position: relative;
+	top: 87.5%;
+}
+
+.row__black_1 {
+	left: 0;
+	position: absolute;
 	width: 62.5px;
 	height: 62.5px;
 	background-color: black;
 }
 
-.row__white {
-	float: left;
-	position: relative;
+.row__white_2 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 12.5%;
+}
+
+.row__black_3 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 25%;
+}
+
+.row__white_4 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 37.5%;
+}
+
+.row__black_5 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 50%;
+}
+
+.row__white_6 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 62.5%;
+}
+
+.row__black_7 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 75%;
+}
+
+.row__white_8 {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 87.5%;
+}
+
+.row__white_1 {
+	left: 0;
+	position: absolute;
 	width: 62.5px;
 	height: 62.5px;
 	background-color: white;
 }
 
-.board__row_1 {
+.row__black_2 {
 	position: absolute;
-	top: 0;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 12.5%;
 }
 
-.board__row_2 {
+.row__white_3 {
 	position: absolute;
-	top: 12.5%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 25%;
 }
 
-.board__row_3 {
+.row__black_4 {
 	position: absolute;
-	top: 25%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 37.5%;
 }
 
-.board__row_4 {
+.row__white_5 {
 	position: absolute;
-	top: 37.5%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 50%;
 }
 
-.board__row_5 {
+.row__black_6 {
 	position: absolute;
-	top: 50%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 62.5%;
 }
 
-.board__row_6 {
+.row__white_7 {
 	position: absolute;
-	top: 62.5%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: white;
+	left: 75%;
 }
 
-.board__row_7 {
+.row__black_8 {
 	position: absolute;
-	top: 75%;
-}
-
-.board__row_8 {
-	position: absolute;
-	top: 87.5%;
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	left: 87.5%;
 }
