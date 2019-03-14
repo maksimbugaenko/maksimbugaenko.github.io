@@ -4,186 +4,75 @@
 }
 
 body {
-	min-height: 100hv;
+	width: 100%;
+}
+
+.item {
+	position: absolute;
+	width: 62.5px;
+	height: 62.5px;
 }
 
 .board {
+	clear: both;
 	position: relative;
 	width: 100%;
 	max-width: 500px;
-	height: 500px;
 	margin: auto;
-	border: 10px solid black;
+	border: 10px solid green;
 }
 
-ul li {
-	text-decoration: none;
-}
-
-.board__row_1 {
+[class*="board__row"] {
 	position: relative;
-	top: 0;
+	min-height: 62.5px;
 }
 
-.board__row_2 {
-	position: relative;
-	top: 12.5%;
+.item -1 {
+	left: 13.5%;
 }
 
-.board__row_3 {
-	position: relative;
-	top: 25%;
+.item -2 {
+	left: 14.5%;
 }
 
-.board__row_4 {
-	position: relative;
-	top: 37.5%;
+.item -3 {
+	left: 15.5%;
 }
 
-.board__row_5 {
-	position: relative;
-	top: 50%;
+.item -4 {
+	left: 16.5%;
 }
 
-.board__row_6 {
-	position: relative;
-	top: 62.5%;
+.item -5 {
+	left: 17.5%;
 }
 
-.board__row_7 {
-	position: relative;
-	top: 75%;
+.item -6 {
+	left: 18.5%;
 }
 
-.board__row_8 {
-	position: relative;
-	top: 87.5%;
+.item -7 {
+	left: 19.5%;
 }
 
-.row__black_1 {
-	left: 0;
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
+.item -8 {
+	left: 20.5%;
 }
 
-.row__white_2 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 12.5%;
+.item -9 {
+	left: 21.5%;
 }
 
-.row__black_3 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 25%;
-}
-
-.row__white_4 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 37.5%;
-}
-
-.row__black_5 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 50%;
-}
-
-.row__white_6 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 62.5%;
-}
-
-.row__black_7 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 75%;
-}
-
-.row__white_8 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 87.5%;
-}
-
-.row__white_1 {
-	left: 0;
+[class*="item"]:nth-child(even) {
 	position: absolute;
 	width: 62.5px;
 	height: 62.5px;
 	background-color: white;
 }
 
-.row__black_2 {
+[class*="item"]:nth-child(odd) {
 	position: absolute;
 	width: 62.5px;
 	height: 62.5px;
 	background-color: black;
-	left: 12.5%;
-}
-
-.row__white_3 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 25%;
-}
-
-.row__black_4 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 37.5%;
-}
-
-.row__white_5 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 50%;
-}
-
-.row__black_6 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 62.5%;
-}
-
-.row__white_7 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: white;
-	left: 75%;
-}
-
-.row__black_8 {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-	background-color: black;
-	left: 87.5%;
 }

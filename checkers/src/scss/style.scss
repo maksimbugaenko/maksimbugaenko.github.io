@@ -1,25 +1,48 @@
 @import "mixin";
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body{
-  min-height: 100hv;
+  width: 100%;
+}
+.item{
+  position: absolute;
+  width: 62.5px;
+  height: 62.5px;
 }
 
 .board{
+ clear: both;
  position: relative;
  width: 100%;
  max-width: 500px;
- height: 500px;
  margin: auto;
- border: 10px solid black;
+ border: 10px solid green;
 }
-ul li{
- text-decoration: none;
+[class*="board__row"]{
+  position:relative;
+  min-height: 62.5px; 
 }
+@for $i from 1 through 9{
+  .item -#{$i} {left:12.5% +$i;}
+}
+
+// @for $i from 1 through 9{
+//   .item-#{$i} {
+//     top:12.5% +$i;
+//   }
+
+[class*="item"]:nth-child(even)
+{
+  @include _white;
+}
+[class*="item"]:nth-child(odd)
+{
+ @include _black;
+}
+
 // .board__row.row__black{
 //   // float: left;
 //   position: relative;
@@ -34,104 +57,111 @@ ul li{
 //   height: 62.5px;
 //   background-color: white;
 
-.board__row_1{
-  position:relative; 
-  top: 0%;
-}
-.board__row_2{
-  position:relative; 
-  top: 12.5%;
-}
-.board__row_3{
-  position:relative; 
-  top: 25%;
-}
-.board__row_4{
-  position:relative; 
-  top: 37.5%;
-}
-.board__row_5{
-  position:relative; 
-  top: 50%;
-}
-.board__row_6{
-  position:relative; 
-  top: 62.5%;
-}
-.board__row_7{
-  position:relative; 
-  top: 75%;
-}
-.board__row_8{
-  position:relative; 
-  top: 87.5%;
-}
-.row__black_1{
-  left: 0%;
-  @include _black;
-}
-.row__white_2{
- @include _white;
- left:12.5%; 
-}
-.row__black_3{
-  @include _black;
-  left: 25%;
-}
-.row__white_4{
-  @include _white;
-  left: 37.5%;
-}
-.row__black_5{
-  @include _black;
-  left: 50%;
-}
-.row__white_6{
-  @include _white;
-  left: 62.5%;
-}
-.row__black_7{
-  @include _black;
-  left: 75%;
-}
-.row__white_8{
-  @include _white;
-  left: 87.5%;
-}
-.row__white_1{
-  left: 0%;
-  @include _white;
-}
-.row__black_2{
-  @include _black;
- left:12.5%; 
-}
-.row__white_3{
-  @include _white;
-  left: 25%;
-}
-.row__black_4{
-  @include _black;
-  left: 37.5%;
-}
-.row__white_5{
-  @include _white;
-  left: 50%;
-}
-.row__black_6{
-  @include _black;
-  left: 62.5%;
-}
-.row__white_7{
-  @include _white;
-  left: 75%;
-}
-.row__black_8{
-  @include _black;
-  left: 87.5%;
-}
-
-
-
+// .board__row_1{
+//   position:relative; 
+//   top: 0%;
+// }
+// .board__row_2{
+//   position:relative; 
+//   top: 12.5%;
+// }
+// .board__row_3{
+//   position:relative; 
+//   top: 25%;
+// }
+// .board__row_4{
+//   position:relative; 
+//   top: 37.5%;
+// }
+// .board__row_5{
+//   position:relative; 
+//   top: 50%;
+// }
+// .board__row_6{
+//   position:relative; 
+//   top: 62.5%;
+// }
+// .board__row_7{
+//   position:relative; 
+//   top: 75%;
+// }
+// .board__row_8{
+//   position:relative; 
+//   top: 87.5%;
+// }
+// .row__black_1{
+//   left: 0%;
+//   @include _black;
+// }
+// .row__white_2{
+//  @include _white;
+//  left:12.5%; 
+// }
+// .row__black_3{
+//   @include _black;
+//   left: 25%;
+// }
+// .row__white_4{
+//   @include _white;
+//   left: 37.5%;
+// }
+// .row__black_5{
+//   @include _black;
+//   left: 50%;
+// }
+// .row__white_6{
+//   @include _white;
+//   left: 62.5%;
+// }
+// .row__black_7{
+//   @include _black;
+//   left: 75%;
+// }
+// .row__white_8{
+//   @include _white;
+//   left: 87.5%;
+// }
+// .row__white_1{
+//   left: 0%;
+//   @include _white;
+// }
+// .row__black_2{
+//   @include _black;
+//   left:12.5%; 
+// }
+// .row__white_3{
+//   @include _white;
+//   left: 25%;
+// }
+// .row__black_4{
+//   @include _black;
+//   left: 37.5%;
+// }
+// .row__white_5{
+//   @include _white;
+//   left: 50%;
+// }
+// .row__black_6{
+//   @include _black;
+//   left: 62.5%;
+// }
+// .row__white_7{
+//   @include _white;
+//   left: 75%;
+// }
+// .row__black_8{
+//   @include _black;
+//   left: 87.5%;
+// }
+// .clearfix::after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
+// .clearfix::before {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
 
 
