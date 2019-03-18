@@ -1,8 +1,9 @@
 * {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	cursor: pointer;
 }
 /*table{
 	border-collapse: collapse;
@@ -12,56 +13,65 @@
 	html, body {
 		height: 100%;
 	}
-
 	body {
-		font-size: 100%;
+		cursor: pointer;
+		background: #3b3f45;
 		font-family: sans-serif;
-		color: black; }
-		.obed{
-			background-color: #3B3F45;
-			border: 20px solid white;
-			min-height: 100%;
-		}
-		.obed__header{
-			background-color: #4A4F56;
-			padding: 20px 0;
-			margin-bottom: 1.5rem;
-			color: #eb7e7f;
-		}
-		.dinner__list_item:hover{
-			border-color: white;
-		}
-		.dinner__list_label:active {
-			border-color: black;
-			background-color: #eb7e7f !important;
-			text-decoration:line-through;
-		}
-		*:focus{
-			outline:5px solid #D74668;
-		}
-		li:nth-child(2n){
-			color:#fff;
-			background-color: #000;
-		}
-		li:nth-last-child(2n){
-			color:#000;
-			background-color: yellow;
-		}
-/*.obed_button {
-      min-height: 50px;
-      display: block;
-      padding-left: 15px;
-      background-color: #7a7593;
-      border: 2px solid transparent;
-      border-left: none;
-      border-right: none;
-      cursor: pointer;
-      line-height: 2.9; }
-      .obed_button > * {
-        vertical-align: middle; }
-      .obed_button > *:not(:last-child) {
-        margin-right: .5rem; }
-      .obed_button:active {
-        background-color: #eb7e7f !important; }
-      .obed_button:hover {
-        border-color: white; }*/
+		font-size: 16px;
+		color: #fff;
+		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+	.check{
+		display: inline;
+	}
+	.dinner__header{
+		text-align: center;
+		font-weight: bold;
+		background-color: #4a4f56;
+		color: #eb7e7f;
+		padding: 20px 0;
+	}
+	.dinner__item{
+		background: #88839E;
+		width: 60%;
+		margin: 50px auto;
+		font-size: 25px;
+	}
+	.item{
+		display: inline-block;
+	}
+	.submit{
+		display: block;
+		color: #eb7e7f;
+		text-align: center;
+		background: #4a4f56;
+		margin-left: 20%;
+		margin-top: 15px;
+		width: 60%;  
+		padding: 10px 0px 10px 0px;
+		font-size: 1.2em;
+		border: none;
+		cursor: pointer;
+		outline: none;
+	}
+	li:nth-child(2n){
+		background: #7a7593;
+	}
+	.small{
+		font-size: 15px;
+		opacity: .2
+	}
+	li:hover, li:focus {
+		background-color: #625e77;
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+	}
+
+	li:active {
+		background-color: #eb7e7f;
+	}
+	input:checked + label {  
+		text-decoration: line-through;          
+		opacity: .3;
+
+	} 
