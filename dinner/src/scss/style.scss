@@ -2,14 +2,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	list-style: none;
-	cursor: pointer;
-}
-html, body {
-	height: 100%;
 }
 body {
-	cursor: pointer;
+	height: 100%;
 	background: #3b3f45;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -19,14 +14,13 @@ body {
 .conteiner{
 	margin: 0 auto;
 	max-width: 800px;
-	padding: 40px 20px;
 }
 .form__ul{
 	list-style: none;
 	padding: 0;
 	margin: 0 0 40px;
 }
-.form__ul label{
+.form__label{
 	display: block;
 	cursor: pointer;
 	padding: 15px;
@@ -46,28 +40,34 @@ body {
 	padding: 20px 0;
 	color: #eb7e7f;
 }
-.dinner__item  {
+.form  {
 	background: #88839E;
 	width: 100%;
 	margin: 0px auto;
 	font-size: 20px;
 }	
-li:nth-child(2n){
+.form__li:nth-child(2n){
 	background: #7a7593;
 }
 .small{
 	font-size: 15px;
 	opacity: .2
 }
-li:hover, li:focus {
+.form__li:hover, .form__li:focus {
 	background-color: #625e77;
-	border-top: 3px solid white;
-	border-bottom: 3px solid white;
+	
 }
-li:active {
+.form__li:active {
 	background-color: #eb7e7f;
 }
-input:checked + span {  
+.form__label [type="checkbox"]:checked + span {  
 	text-decoration: line-through;          
 	opacity: .3;
+}
+.form__label:hover{
+	border-top: 0.5px solid white;
+	border-bottom: 0.5px solid white;
+}
+.bon_appetit{
+	cursor: pointer;
 }

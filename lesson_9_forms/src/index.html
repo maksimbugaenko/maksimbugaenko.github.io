@@ -4,44 +4,61 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Form</title>
-	<link rel="shortcut svg" type="image/x-icon" href="img/favicon.svg">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 	<form action="#">
+
 		<fieldset>
-			<legend>registration form</legend>
-			<lable for="userName">
-				User name
-			</lable>
-			<input id="userName" type="text" placeholder="full name" name="userName"> 
+			<legend>Registration Form</legend>
 
-			<lable for="userEmaill">
-				Emaill
-			</lable>
-			<input id="userEmail" type="emaill" placeholder="userEmail" name="userEmail"> 
-
-			<label for="chkbox">
-				
+			<label for="userName">
+				Name
 			</label>
-			<lable for="select">
-				Namber of passes
-				<select name="select" id="select">
-					<option value="1"></option>
-					<option value="2"></option>
-					<option value="3"></option>
-					<option value="4"></option>
-				</select>
-			</lable>
+			<input id="userName" type="text" placeholder="full name" name="userName">
 
-			<lable for="coments">
+			<label for="userEmail">
+				Email
+			</label>
+			<input id="userEmail" type="email" placeholder="email address" name="userEmail">
+
+			<label for="select">
+				Number of passes
+			</label>
+			<select name="select" id="select">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+
+			<label for="1">1</label>
+			<input id="1" type="radio" name="radio" checked>
+			<label for="2">2</label>
+			<input id="2" type="radio" name="radio">
+			<label for="3">3</label>
+			<input id="3" type="radio" name="radio">
+
+			<label for="chckbx">
+				Check me
+				<input type="checkbox" id="chckbx">
+				<div class="psevdo"></div>
+			</label>
+			
+
+			<label for="comment">
 				Comments
-			</lable>
-			<textarea ></textarea>
+			</label>
+			<textarea name="comment" id="comment" rows="5"></textarea>
+
+			<input type="submit" value="Purchase">
 		</fieldset>
+		
+		
 	</form>
-
-
-	<script src="js/script.js"></script>
 </body>
 </html>

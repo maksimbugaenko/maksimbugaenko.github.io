@@ -1,17 +1,33 @@
 body {
-	background: #111a28;
+	background: #dd2476;
 	font-size: 100%;
+	margin-top: 60px;
+	padding-top: 0;
 }
 
-.form {
-	max-width: 900px;
-	margin: auto;
+.container {
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	max-width: 580px;
+	padding: 60px;
 }
 
 .form__header {
-	display: inline-block;
-	position: relative;
-	top: 0;
-	background: url(..img/1.jpg);
-	padding-left: 35px;
+	font-size: 24px;
+}
+
+fieldset {
+	margin: 20px;
+	padding: 15px;
+}
+fieldset > * {
+	display: block;
+}
+
+.header__text--link {
+	color: #ea355a;
+	text-decoration: none;
 }

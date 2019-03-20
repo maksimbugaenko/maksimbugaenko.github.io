@@ -1,81 +1,101 @@
-*
-{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; 
-    margin: 0;
-    padding: 0;
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 html,
-body
-{
-    min-height: 100vh;
+body {
+	min-height: 100vh;
 }
 
-body
-{
-    font-family: sans-serif; 
-
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    color: white;
-    background-color: black;
-
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+body {
+	background-color: black;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
 }
 
-form
-{
-    min-width: 40%; 
-    padding: 15px;
-
-    color: black;
-    border-radius: 10px;
-    background: white;
+form {
+	background: white;
+	color: black;
+	padding: 15px;
+	border-radius: 10px;
+	min-width: 30%;
 }
-
-fieldset
-{
-    padding: 30px;
+form fieldset {
+	padding: 30px;
 }
-fieldset > *
-{
-    display: block;
+form fieldset > * {
+	display: block;
 }
-
-[id]
-{
-    margin-bottom: 1rm;
-
-    border-radius: 5px;
+form fieldset > *:not(label) {
+	border: 1px solid black;
 }
-
-[type='submit']
-{
-    color: white;
-    border-color: #648888;
-    border-radius: 10px;
-    background-color: #648888;
-
-    text: transform;
+form fieldset legend {
+	border: none;
 }
-
-input select
-{
-    zoom: 10; 
-
-    padding: 5px;
+form label {
+	margin-bottom: .5rem;
 }
-
-input :not([type='submit']),
-textarea
-{
-    width: 100%;
+form [id] {
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+form [type="submit"] {
+	border-radius: 5px;
+	background-color: #648880;
+	border-color: #648880;
+	color: white;
+	text-transform: uppercase;
+	min-width: 50%;
+	padding: 15px 0;
+}
+form input,
+form select {
+	padding: 5px;
+}
+form input:not([type="submit"]),
+form textarea {
+	width: 100%;
+}
+form input[type="radio"],
+form input[type="checkbox"] {
+	width: initial;
+	display: inline;
+}
+form input[type="checkbox"] {
+	opacity: 0;
+}
+form input[type="checkbox"]:checked + .psevdo::before {
+	opacity: 1;
+}
+form .psevdo {
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: red;
+	border: 5px solid green;
+	border-radius: 5px;
+	position: relative;
+}
+form .psevdo::before {
+	content: "1";
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: blue;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	opacity: 0;
 }

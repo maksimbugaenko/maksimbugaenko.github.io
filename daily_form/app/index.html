@@ -3,19 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
-	<title>Document</title>
+	<title>daily_form</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	<div class="form">
+	<div class="container">
 		<div class="form__header">
-			<img src="img/1.jpg" alt="">
-			<h1>  Create your free account</h1>
-			
+			<h1><img src="img/key.png" alt="key">Create your free account</h1>
 		</div>
-	</div>
-	<script src="js/script.js"></script>
-</body>
-</html>
+		<div class="header__text">
+			<h2>Come and join our cool and amazing community, fill in your details to get started. Already have an account?
+				<a class="header__text--link" href="#">Log in </a></h2>
+			</div>
+			<form action="#">
+				<input id="First name" type="text" placeholder="First name" name="First name">
+				<input id="Last name" type="text" placeholder="Last name" name="Last name">
+				<input id="Email address" type="email" placeholder="Email address" name="Email address">
+				<input id="Password" type="password" placeholder="Password" name="Password">
+			</form>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+	</html>
