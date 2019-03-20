@@ -5,73 +5,69 @@
 	list-style: none;
 	cursor: pointer;
 }
-/*table{
-	border-collapse: collapse;
-	border-bottom: 2px solid lightgray;
-	}*/
-
-	html, body {
-		height: 100%;
-	}
-	body {
-		cursor: pointer;
-		background: #3b3f45;
-		font-family: sans-serif;
-		font-size: 16px;
-		color: #fff;
-		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	}
-	.check{
-		display: inline;
-	}
-	.dinner__header{
-		text-align: center;
-		font-weight: bold;
-		background-color: #4a4f56;
-		color: #eb7e7f;
-		padding: 20px 0;
-	}
-	.dinner__item{
-		background: #88839E;
-		width: 60%;
-		margin: 50px auto;
-		font-size: 25px;
-	}
-	.item{
-		display: inline-block;
-	}
-	.submit{
-		display: block;
-		color: #eb7e7f;
-		text-align: center;
-		background: #4a4f56;
-		margin-left: 20%;
-		margin-top: 15px;
-		width: 60%;  
-		padding: 10px 0px 10px 0px;
-		font-size: 1.2em;
-		border: none;
-		cursor: pointer;
-		outline: none;
-	}
-	li:nth-child(2n){
-		background: #7a7593;
-	}
-	.small{
-		font-size: 15px;
-		opacity: .2
-	}
-	li:hover, li:focus {
-		background-color: #625e77;
-		border-top: 3px solid white;
-		border-bottom: 3px solid white;
-	}
-
-	li:active {
-		background-color: #eb7e7f;
-	}
-	input:checked + label {  
-		text-decoration: line-through;          
-		opacity: .3;
-
-	} 
+html, body {
+	height: 100%;
+}
+body {
+	cursor: pointer;
+	background: #3b3f45;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conteiner{
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 40px 20px;
+}
+.form__ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px;
+}
+.form__ul label{
+	display: block;
+	cursor: pointer;
+	padding: 15px;
+}
+.form__ul [type="checkbox"]{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	margin-right: 10px;
+}		
+.dinner__header,.bon_appetit {
+	text-align: center;
+	background: #4A4F56;
+	padding: 20px 0;
+	color: #eb7e7f;
+}
+.dinner__item  {
+	background: #88839E;
+	width: 100%;
+	margin: 0px auto;
+	font-size: 20px;
+}	
+li:nth-child(2n){
+	background: #7a7593;
+}
+.small{
+	font-size: 15px;
+	opacity: .2
+}
+li:hover, li:focus {
+	background-color: #625e77;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}
+li:active {
+	background-color: #eb7e7f;
+}
+input:checked + span {  
+	text-decoration: line-through;          
+	opacity: .3;
+} 
