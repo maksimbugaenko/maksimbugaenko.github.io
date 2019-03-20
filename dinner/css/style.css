@@ -70,4 +70,4 @@ li:active {
 input:checked + span {  
 	text-decoration: line-through;          
 	opacity: .3;
-} 
+}
