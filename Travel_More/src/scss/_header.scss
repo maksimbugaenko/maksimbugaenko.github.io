@@ -1,0 +1,126 @@
+.header {
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: $secondary-font;
+
+	&__content {
+		min-height: 100vh; 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo {
+		margin-bottom: 50px;
+		font-family: $secondary-font;
+
+		h2 {
+			font-size: 48px;
+			margin: 0 0 10px;
+			font-weight: bold;	
+		}
+
+		a {
+			color: $white-color;
+			display: block;
+		}
+
+		&-description {
+			font-weight: 300;
+			letter-spacing: 8px;
+			text-transform: capitalize;			
+		}	
+
+		&__form {
+			display: flex;
+			width: 100%;
+			font-size: 14px;
+
+			& > * {
+				border: 2px solid $white-color;
+			}
+
+			&-input {
+				min-height: 60px;
+				text-align: center;
+				flex-grow: 7;
+				letter-spacing: 3px;
+				outline: transparent;
+
+			}
+
+			&-submit {
+
+				flex-grow: 3;
+				text-transform: uppercase;
+				color: $white-color;
+				background: $light-blue-color url($img-path+'search-icon.svg') no-repeat 85% 50%;
+				font-family: $main-font;
+				cursor: pointer;
+
+				@media (max-width: 1024px) {
+					background-image: none;
+				}
+
+				&:hover {
+					background-color: lighten($light-blue-color, 10%);
+				}
+			}
+		}
+		.header__form{
+			display: flex;
+			width: 100%;
+			font-size: 14px;
+		}
+
+		.scroll-link {
+			text-transform: capitalize;
+			text-decoration: none;
+			color: $white-color;
+			letter-spacing: 3px;
+			font-weight: 300;
+			position: absolute;
+			bottom: 15%;
+			left: 50%;
+			transform: translateX(-50%);
+
+			&::after {
+				content: '';
+				display: block;
+				$size: 15px;
+				width: $size;
+				height: $size;
+				border: 1px solid $white-color;
+				transform: rotate(-135deg) translateX(50%);
+				border-right-color: transparent;
+				border-bottom-color: transparent;
+				position: absolute;
+				left: 50%;
+				bottom: -25px;
+			}
+		}
+	}	
+
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.row {
+	clear: both;
+	margin-right: -15px;
+	margin-left: -15px;
+
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+}
+

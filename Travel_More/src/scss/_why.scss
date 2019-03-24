@@ -1,0 +1,39 @@
+.why {
+	min-height: 680px;
+	padding-top: 115px;
+	background-image: url(../img/choose-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (max-width: 1024px) {
+		padding-top: 50px;
+	}
+
+	.why__text{
+		padding-top: 50px;
+	}
+
+	.why__img{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.why__heading {
+		margin-bottom: 60px;
+	}
+
+	&__text {
+		font-family: $secondary-font;
+		letter-spacing: 2px;
+		margin-bottom: 30px;
+	}
+}	
+.img__item1{
+	padding-bottom: 5px;
+}
+.img__item2{
+	align-self: flex-end;
+}
+

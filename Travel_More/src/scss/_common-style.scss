@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-family: $main-font;
+	font-size: $font-size;
+	color: $white-color;
+	border: 15px solid $white-color;
+}
+
+a {
+	text-decoration: none;
+	color: $white-color;
+}
+.logo {
+	font-family: $secondary-font;
+
+	h2 {
+		margin: 0 0 10px;
+		font-weight: bold;	
+	}
+
+	a {
+		color: $white-color;
+		display: block;
+	}
+
+	&-description {
+		font-weight: 300;
+		letter-spacing: 8px;
+		text-transform: capitalize;			
+	}
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.button {
+	text-transform: uppercase;
+	min-height: 60px;
+	min-width: 225px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	color: $white-color;
+	cursor: pointer;
+	
+}
+
+.section-heading { 
+
+	& > * {
+		font-size: 36px;
+		text-transform: capitalize;
+	}
+}

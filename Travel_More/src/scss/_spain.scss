@@ -1,0 +1,27 @@
+.travel-first {
+	background-image: url(../img/house.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.travel-last{
+	&_container{
+		background-image: url(../img/rocks.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.row {
+		clear: both;
+		margin-right: -15px;
+		margin-left: -15px;
+
+		&::before,
+		&::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+	}
+}

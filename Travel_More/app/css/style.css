@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
+@font-face {
+	font-family: "Aleo";
+	src: url("../fonts/aleo/aleo-regular-webfont.eot"), url("../fonts/aleo/aleo-regular-webfont.woff"), url("../fonts/aleo/aleo-regular-webfont.woff2"), url("../fonts/aleo/aleo-regular-webfont.ttf"), url("../fonts/aleo/aleo-regular-webfont.svg");
+}
+
+.header {
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Josefin Sans", sans-serif;
+}
+.header__content {
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.header .logo {
+	margin-bottom: 50px;
+	font-family: "Josefin Sans", sans-serif;
+}
+.header .logo h2 {
+	font-size: 48px;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+.header .logo a {
+	color: #fff;
+	display: block;
+}
+.header .logo-description {
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: capitalize;
+}
+.header .logo__form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	font-size: 14px;
+}
+.header .logo__form > * {
+	border: 2px solid #fff;
+}
+.header .logo__form-input {
+	min-height: 60px;
+	text-align: center;
+	-webkit-box-flex: 7;
+	-ms-flex-positive: 7;
+	flex-grow: 7;
+	letter-spacing: 3px;
+	outline: transparent;
+}
+.header .logo__form-submit {
+	-webkit-box-flex: 3;
+	-ms-flex-positive: 3;
+	flex-grow: 3;
+	text-transform: uppercase;
+	color: #fff;
+	background: #5474fd url("../img/search-icon.svg") no-repeat 85% 50%;
+	font-family: "Aleo", sans-serif;
+	cursor: pointer;
+}
+@media (max-width: 1024px) {
+	.header .logo__form-submit {
+		background-image: none;
+	}
+}
+.header .logo__form-submit:hover {
+	background-color: #869dfe;
+}
+.header .logo .header__form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	font-size: 14px;
+}
+.header .logo .scroll-link {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 3px;
+	font-weight: 300;
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.header .logo .scroll-link::after {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #fff;
+	-webkit-transform: rotate(-135deg) translateX(50%);
+	        transform: rotate(-135deg) translateX(50%);
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.row {
+	clear: both;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.row::before,
+.row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100vh;
+}
+
+body {
+	font-family: "Aleo", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border: 15px solid #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	font-family: "Josefin Sans", sans-serif;
+}
+.logo h2 {
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+.logo a {
+	color: #fff;
+	display: block;
+}
+.logo-description {
+	font-weight: 300;
+	letter-spacing: 8px;
+	text-transform: capitalize;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.button {
+	text-transform: uppercase;
+	min-height: 60px;
+	min-width: 225px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.section-heading > * {
+	font-size: 36px;
+	text-transform: capitalize;
+}
+
+.about_us {
+	background-color: #5474fd;
+}
+.about_us__bar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 80px;
+}
+.about_us .logo h2 {
+	font-size: 24px;
+	margin-bottom: 0;
+}
+.about_us__menu {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 80px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.about_us__menu--link {
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 5px;
+}
+.about_us__menu--link:hover {
+	border-bottom-color: #fff;
+}
+
+.travel-first {
+	background-image: url(../img/house.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.travel-last_container {
+	background-image: url(../img/rocks.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.travel-last .row {
+	clear: both;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.travel-last .row::before,
+.travel-last .row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.why {
+	min-height: 680px;
+	padding-top: 115px;
+	background-image: url(../img/choose-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (max-width: 1024px) {
+	.why {
+		padding-top: 50px;
+	}
+}
+.why .why__text {
+	padding-top: 50px;
+}
+.why .why__img {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.why .why__heading {
+	margin-bottom: 60px;
+}
+.why__text {
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.img__item1 {
+	padding-bottom: 5px;
+}
+
+.img__item2 {
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
