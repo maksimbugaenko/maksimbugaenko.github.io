@@ -7,72 +7,88 @@ body {
 	width: 100%;
 }
 
-.item {
-	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
-}
-
 .board {
-	clear: both;
-	position: relative;
-	width: 100%;
 	max-width: 500px;
 	margin: auto;
-	border: 10px solid green;
+	margin-top: 10%;
+	border: 5px solid black;
 }
 
-[class*="board__row"] {
+[class*="row"] {
 	position: relative;
 	min-height: 62.5px;
 }
 
-.item -1 {
-	left: 13.5%;
-}
-
-.item -2 {
-	left: 14.5%;
-}
-
-.item -3 {
-	left: 15.5%;
-}
-
-.item -4 {
-	left: 16.5%;
-}
-
-.item -5 {
-	left: 17.5%;
-}
-
-.item -6 {
-	left: 18.5%;
-}
-
-.item -7 {
-	left: 19.5%;
-}
-
-.item -8 {
-	left: 20.5%;
-}
-
-.item -9 {
-	left: 21.5%;
-}
-
-[class*="item"]:nth-child(even) {
+.item1 {
 	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 0;
+	background-color: black;
+}
+
+.item2 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 12.5%;
 	background-color: white;
 }
 
-[class*="item"]:nth-child(odd) {
+.item3 {
 	position: absolute;
-	width: 62.5px;
-	height: 62.5px;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 25%;
 	background-color: black;
+}
+
+.item4 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 37.5%;
+	background-color: white;
+}
+
+.item5 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 50%;
+	background-color: black;
+}
+
+.item6 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 62.5%;
+	background-color: white;
+}
+
+.item7 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 75%;
+	background-color: black;
+}
+
+.item8 {
+	position: absolute;
+	min-width: 62.5px;
+	min-height: 62.5px;
+	left: 87.5%;
+	background-color: white;
+}
+
+[class*="row"]:nth-child(even) {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	    flex-direction: row-reverse;
 }
