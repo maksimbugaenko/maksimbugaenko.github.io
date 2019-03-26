@@ -15,19 +15,14 @@ body {
 }
 
 .form {
-	width: 100%;
-	margin: 0 auto;
 	font-size: 20px;
-	margin: 0;
-	max-width: 800px;
-	margin-left: 500px;
 }
 
 .form__ul {
-	margin-bottom: 30px;
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 25%;
 	list-style: none;
-	padding: 0;
-	margin: 0 0;
 }
 
 .form__label {
@@ -55,7 +50,6 @@ body {
 	background: #4a4f56;
 	padding: 20px 0;
 	color: #eb7e7f;
-	margin-bottom: 20px;
 }
 
 .form__li:nth-child(2n) {
@@ -64,10 +58,6 @@ body {
 
 .form__li:nth-child(2n+1) {
 	background: #88839e;
-}
-
-.form__li:nth-last-child(1) {
-	margin-bottom: 40px;
 }
 
 .small {
@@ -94,10 +84,11 @@ body {
 }
 
 .submit {
+	margin-top: 40px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 100%;
+	min-width: 50%;
 	background: #4a4f56;
 	padding: 20px 0;
 	color: #eb7e7f;

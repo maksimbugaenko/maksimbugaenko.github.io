@@ -12,18 +12,13 @@ body {
 	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form{
-	width: 100%;
-	margin: 0px auto;
 	font-size: 20px;
-	margin: 0 ;
-	max-width: 800px;
-	margin-left: 25%;
 }
 .form__ul{
-	margin-bottom: 30px;
+	margin-top: 40px;
+	width: 50%;
+	margin-left: 25%;
 	list-style: none;
-	padding: 0;
-	margin: 0 0 ;
 }
 .form__label{
 	border-style: solid;
@@ -48,16 +43,12 @@ body {
 	background: #4A4F56;
 	padding: 20px 0;
 	color: #eb7e7f;
-	margin-bottom: 20px;
 }
 .form__li:nth-child(2n){
 	background: #7a7593;
 }
 .form__li:nth-child(2n+1){
 	background: #88839E;
-}
-.form__li:nth-last-child(1){
-	margin-bottom: 40px;
 }
 .small{
 	font-size: 15px;
@@ -76,13 +67,13 @@ body {
 }
 .form__label:hover{
 	border-color: white;
-	
 }
 .submit{
+	margin-top: 40px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 100%;
+	min-width: 50%;
 	background: #4A4F56;
 	padding: 20px 0;
 	color: #eb7e7f;
