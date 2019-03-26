@@ -15,14 +15,14 @@ body {
 }
 
 .form {
-	margin: 0 auto;
+	margin: 0;
 	max-width: 800px;
 }
 
 .form__ul {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 40px;
+	margin: 0 0;
 }
 
 .form__label {
@@ -31,6 +31,8 @@ body {
 	display: block;
 	cursor: pointer;
 	padding: 15px;
+	border-left: none;
+	border-right: none;
 }
 
 .form__ul [type="checkbox"] {
@@ -82,15 +84,14 @@ body {
 }
 
 .form__label:hover {
-	border-top: solid white;
-	border-bottom: solid white;
+	border-color: white;
 }
 
 .submit {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 800px;
+	min-width: 100%;
 	background: #4a4f56;
 	padding: 20px 0;
 	color: #eb7e7f;

@@ -10,5 +10,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
+	background-color: green;
+}
+.board{
+ max-width: 500px;
+ margin: auto;
+ margin-top: 10%;
+ border: 5px solid black;
+display: flex;
 }
