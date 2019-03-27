@@ -13,8 +13,9 @@ body {
 	padding: 60px;
 }
 
-h1 {
-	margin-bottom: 16px;
+h1,
+h2 {
+	margin-top: 0;
 }
 
 .main__form {
@@ -29,9 +30,8 @@ h1 {
 	line-height: 1.4;
 	font-size: 24px;
 }
-
-.header__text {
-	margin-bottom: 36px;
+.form__header .header__img {
+	padding-right: 10px;
 }
 
 .header__text--link {

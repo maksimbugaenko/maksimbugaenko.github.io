@@ -15,8 +15,8 @@ body{
 	padding: 60px;
 	
 }
-h1{
-	margin-bottom: 16px;
+h1, h2{
+	margin-top: 0px;
 }
 .main__form{
 	display: flex;
@@ -24,11 +24,15 @@ h1{
 	
 }
 .form__header{
+
 	line-height: 1.4;
 	font-size: 24px;
+	.header__img{
+		padding-right: 10px;
+	}
 }
 .header__text{
-	margin-bottom: 36px;
+	
 }
 .header__text--link{
 	color:#ea355a;

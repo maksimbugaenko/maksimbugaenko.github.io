@@ -12,10 +12,10 @@ body {
 	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form{
+	width: 100%;
 	font-size: 20px;
 }
 .form__ul{
-	margin-top: 40px;
 	width: 50%;
 	margin-left: 25%;
 	list-style: none;
@@ -39,10 +39,14 @@ body {
 	margin-right: 10px;
 }		
 .dinner__header  {
+	margin-bottom: 20px;
 	text-align: center;
 	background: #4A4F56;
 	padding: 20px 0;
 	color: #eb7e7f;
+}
+.form__li{
+	margin-bottom: 20px;
 }
 .form__li:nth-child(2n){
 	background: #7a7593;
@@ -69,7 +73,6 @@ body {
 	border-color: white;
 }
 .submit{
-	margin-top: 40px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
