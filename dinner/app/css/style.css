@@ -21,8 +21,6 @@ body {
 
 .form__ul {
 	margin-bottom: 20px;
-	width: 50%;
-	margin-left: 25%;
 	list-style: none;
 }
 
@@ -87,9 +85,6 @@ body {
 
 .submit {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	min-width: 50%;
 	background: #4a4f56;
 	padding: 20px 0;
 	color: #eb7e7f;
