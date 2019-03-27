@@ -15,8 +15,9 @@ body {
 }
 
 .form {
-	width: 100%;
+	width: 50%;
 	font-size: 20px;
+	margin: auto;
 }
 
 .form__ul {
@@ -84,6 +85,7 @@ body {
 }
 
 .submit {
+	width: 100%;
 	display: block;
 	background: #4a4f56;
 	padding: 20px 0;

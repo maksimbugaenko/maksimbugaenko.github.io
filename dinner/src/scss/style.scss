@@ -12,8 +12,9 @@ body {
 	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form{
-	width: 100%;
+	width: 50%;
 	font-size: 20px;
+	margin: auto;
 }
 .form__ul{
 	margin-bottom: 20px;
@@ -69,6 +70,7 @@ body {
 	border-color: white;
 }
 .submit{
+	width: 100%;
 	display: block;
 	background: #4A4F56;
 	padding: 20px 0;
