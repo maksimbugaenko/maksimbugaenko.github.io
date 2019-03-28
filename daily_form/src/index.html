@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>daily_form</title>
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
@@ -14,16 +14,21 @@
 			<h1><img class="header__img" src="img/key.png" alt="key">Create your free account</h1>
 		</div>
 		<div class="header__text">
-			<h2>Come and join our cool and amazing community, fill in your details to get started. Already have an account?
-				<a class="header__text--link" href="#">Log in </a></h2>
+			<h2>Come and join our cool and amazing community, fill in your details <p>to get started. Already have an account?
+				<a class="header__text--link" href="#">Log in </a></p> </h2>
 			</div>
 			<form class="main__form" action="#">
-				<input class="form__name" id="First name" type="text" placeholder="First name" name="First name">
-				<input class="form__last_name" id="Last name" type="text" placeholder="Last name" name="Last name">
-				<input class="form__email" id="Email address" type="email" placeholder="Email address" name="Email address">
-				<input class="form__password" id="Password" type="password" placeholder="Password" name="Password">
-			</form>
-		</div>
-		<script src="js/script.js"></script>
-	</body>
-	</html>
+				<input class="form__input" id="First name" type="text" placeholder="First name" name="First name" required>
+				<input class="form__input" id="Last name" type="text" placeholder="Last name" name="Last name">
+				<input class="form__input" id="Email address" type="email" placeholder="Email address" name="Email address" required>
+				<input class="form__input" id="Password" type="password" placeholder="Password" name="Password" required>
+				<input class="form__btn" type="submit" value="Sign up for free">
+				<h3 class="form__footer">By clicking on “Sign up for free”, you agree to the 
+					<a class="form__footer--link" href="#">Terms of Service</a> and <p>the 
+						<a class="form__footer--link" href="#">Privacy Policy</a></p>
+					</h3>
+				</form>
+			</div>
+			<script src="js/script.js"></script>
+		</body>
+		</html>

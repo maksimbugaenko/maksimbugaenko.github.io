@@ -1,21 +1,28 @@
 body {
-	background: #dd2476;
+	font-family: Arial;
 	font-size: 100%;
-	margin-top: 60px;
-	padding-top: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: #f0f0f0;
 }
 
 .container {
 	margin: 0 auto;
 	max-width: 817px;
 	background: #fff;
-	max-width: 600;
 	padding: 60px;
+	opacity: .8;
+}
+.container p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h1,
 h2 {
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .main__form {
@@ -27,6 +34,7 @@ h2 {
 }
 
 .form__header {
+	margin-bottom: 20px;
 	line-height: 1.4;
 	font-size: 24px;
 }
@@ -34,7 +42,14 @@ h2 {
 	padding-right: 10px;
 }
 
-.header__text--link {
+.header__text {
+	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.header__text--link,
+.form__footer--link {
 	color: #ea355a;
 	text-decoration: none;
 }
@@ -46,7 +61,7 @@ h2 {
 	display: inline-block;
 }
 
-.main__form__form* {
+.form__input {
 	font-size: 14px;
 	display: inline-block;
 	margin-bottom: 14px;
@@ -56,7 +71,42 @@ h2 {
 	background-color: #f0f0f0;
 }
 
-.form__email {
+.form__input[id="First name"] {
+	-ms-flex-preferred-size: 46%;
+	flex-basis: 46%;
+	margin-right: 25px;
+}
+
+.form__input[id="Last name"] {
+	-ms-flex-preferred-size: 46%;
+	flex-basis: 46%;
+}
+
+.form__input[type="email"],
+[type="password"] {
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%;
+}
+
+.form__btn {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	border: none;
+	border-radius: 4px;
+	font-size: 24px;
+	background: #ea355a;
+	font-weight: bold;
+	min-height: 50px;
+	margin-bottom: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.form__footer {
+	font-size: 20px;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	min-width: 100%;
 }
