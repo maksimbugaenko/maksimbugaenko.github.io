@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #3b3f45;
+}
+
+.board {
+	max-width: 500px;
+	margin: auto;
+	max-height: 500px;
+	margin-top: 5%;
+}
+
+ul {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+ul > * {
+	width: 62.5px;
+	float: left;
+	height: 62.5px;
+	list-style: none;
+}
+
+.board__row1 li:nth-child(1),
+.board__row3 li:nth-child(1),
+.board__row5 li:nth-child(1),
+.board__row7 li:nth-child(1) {
+	left: 0;
+	background: black;
+}
+
+.board__row1 li:nth-child(2),
+.board__row3 li:nth-child(2),
+.board__row5 li:nth-child(2),
+.board__row7 li:nth-child(2) {
+	left: 12.5%;
+	background: white;
+}
+
+.board__row1 li:nth-child(3),
+.board__row3 li:nth-child(3),
+.board__row5 li:nth-child(3),
+.board__row7 li:nth-child(3) {
+	left: 25%;
+	background: black;
+}
+
+.board__row1 li:nth-child(4),
+.board__row3 li:nth-child(4),
+.board__row5 li:nth-child(4),
+.board__row7 li:nth-child(4) {
+	left: 37.5%;
+	background: white;
+}
+
+.board__row1 li:nth-child(5),
+.board__row3 li:nth-child(5),
+.board__row5 li:nth-child(5),
+.board__row7 li:nth-child(5) {
+	left: 50%;
+	background: black;
+}
+
+.board__row1 li:nth-child(6),
+.board__row3 li:nth-child(6),
+.board__row5 li:nth-child(6),
+.board__row7 li:nth-child(6) {
+	left: 62.5%;
+	background: white;
+}
+
+.board__row1 li:nth-child(7),
+.board__row3 li:nth-child(7),
+.board__row5 li:nth-child(7),
+.board__row7 li:nth-child(7) {
+	left: 75%;
+	background: black;
+}
+
+.board__row1 li:nth-child(8),
+.board__row3 li:nth-child(8),
+.board__row5 li:nth-child(8),
+.board__row7 li:nth-child(8) {
+	left: 87.5%;
+	background: white;
+}
+
+.board__row2 li:nth-child(1),
+.board__row4 li:nth-child(1),
+.board__row6 li:nth-child(1),
+.board__row8 li:nth-child(1) {
+	left: 0;
+	background: white;
+}
+
+.board__row2 li:nth-child(2),
+.board__row4 li:nth-child(2),
+.board__row6 li:nth-child(2),
+.board__row8 li:nth-child(2) {
+	left: 12.5%;
+	background: black;
+}
+
+.board__row2 li:nth-child(3),
+.board__row4 li:nth-child(3),
+.board__row6 li:nth-child(3),
+.board__row8 li:nth-child(3) {
+	left: 25%;
+	background: white;
+}
+
+.board__row2 li:nth-child(4),
+.board__row4 li:nth-child(4),
+.board__row6 li:nth-child(4),
+.board__row8 li:nth-child(4) {
+	left: 37.5%;
+	background: black;
+}
+
+.board__row2 li:nth-child(5),
+.board__row4 li:nth-child(5),
+.board__row6 li:nth-child(5),
+.board__row8 li:nth-child(5) {
+	left: 50%;
+	background: white;
+}
+
+.board__row2 li:nth-child(6),
+.board__row4 li:nth-child(6),
+.board__row6 li:nth-child(6),
+.board__row8 li:nth-child(6) {
+	left: 62.5%;
+	background: black;
+}
+
+.board__row2 li:nth-child(7),
+.board__row4 li:nth-child(7),
+.board__row6 li:nth-child(7),
+.board__row8 li:nth-child(7) {
+	left: 75%;
+	background: white;
+}
+
+.board__row2 li:nth-child(8),
+.board__row4 li:nth-child(8),
+.board__row6 li:nth-child(8),
+.board__row8 li:nth-child(8) {
+	left: 87.5%;
+	background: black;
+}
