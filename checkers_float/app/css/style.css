@@ -31,7 +31,6 @@ ul > * {
 .board__row3 li:nth-child(1),
 .board__row5 li:nth-child(1),
 .board__row7 li:nth-child(1) {
-	left: 0;
 	background: black;
 }
 
@@ -39,7 +38,6 @@ ul > * {
 .board__row3 li:nth-child(2),
 .board__row5 li:nth-child(2),
 .board__row7 li:nth-child(2) {
-	left: 12.5%;
 	background: white;
 }
 
@@ -47,7 +45,6 @@ ul > * {
 .board__row3 li:nth-child(3),
 .board__row5 li:nth-child(3),
 .board__row7 li:nth-child(3) {
-	left: 25%;
 	background: black;
 }
 
@@ -55,7 +52,6 @@ ul > * {
 .board__row3 li:nth-child(4),
 .board__row5 li:nth-child(4),
 .board__row7 li:nth-child(4) {
-	left: 37.5%;
 	background: white;
 }
 
@@ -63,7 +59,6 @@ ul > * {
 .board__row3 li:nth-child(5),
 .board__row5 li:nth-child(5),
 .board__row7 li:nth-child(5) {
-	left: 50%;
 	background: black;
 }
 
@@ -71,7 +66,6 @@ ul > * {
 .board__row3 li:nth-child(6),
 .board__row5 li:nth-child(6),
 .board__row7 li:nth-child(6) {
-	left: 62.5%;
 	background: white;
 }
 
@@ -79,7 +73,6 @@ ul > * {
 .board__row3 li:nth-child(7),
 .board__row5 li:nth-child(7),
 .board__row7 li:nth-child(7) {
-	left: 75%;
 	background: black;
 }
 
@@ -87,7 +80,6 @@ ul > * {
 .board__row3 li:nth-child(8),
 .board__row5 li:nth-child(8),
 .board__row7 li:nth-child(8) {
-	left: 87.5%;
 	background: white;
 }
 
@@ -95,7 +87,6 @@ ul > * {
 .board__row4 li:nth-child(1),
 .board__row6 li:nth-child(1),
 .board__row8 li:nth-child(1) {
-	left: 0;
 	background: white;
 }
 
@@ -103,7 +94,6 @@ ul > * {
 .board__row4 li:nth-child(2),
 .board__row6 li:nth-child(2),
 .board__row8 li:nth-child(2) {
-	left: 12.5%;
 	background: black;
 }
 
@@ -111,7 +101,6 @@ ul > * {
 .board__row4 li:nth-child(3),
 .board__row6 li:nth-child(3),
 .board__row8 li:nth-child(3) {
-	left: 25%;
 	background: white;
 }
 
@@ -119,7 +108,6 @@ ul > * {
 .board__row4 li:nth-child(4),
 .board__row6 li:nth-child(4),
 .board__row8 li:nth-child(4) {
-	left: 37.5%;
 	background: black;
 }
 
@@ -127,7 +115,6 @@ ul > * {
 .board__row4 li:nth-child(5),
 .board__row6 li:nth-child(5),
 .board__row8 li:nth-child(5) {
-	left: 50%;
 	background: white;
 }
 
@@ -135,7 +122,6 @@ ul > * {
 .board__row4 li:nth-child(6),
 .board__row6 li:nth-child(6),
 .board__row8 li:nth-child(6) {
-	left: 62.5%;
 	background: black;
 }
 
@@ -143,7 +129,6 @@ ul > * {
 .board__row4 li:nth-child(7),
 .board__row6 li:nth-child(7),
 .board__row8 li:nth-child(7) {
-	left: 75%;
 	background: white;
 }
 
@@ -151,6 +136,5 @@ ul > * {
 .board__row4 li:nth-child(8),
 .board__row6 li:nth-child(8),
 .board__row8 li:nth-child(8) {
-	left: 87.5%;
 	background: black;
 }
