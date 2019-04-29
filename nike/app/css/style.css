@@ -1,0 +1,157 @@
+body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-height: 100%;
+	background: #282828;
+}
+
+.conteiner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-height: 600px;
+	min-width: 800px;
+	background: url(../img/main-bg.png) no-repeat;
+	margin-top: 100px;
+}
+
+.card {
+	padding: 22px;
+	background: #111a28;
+	max-height: 390px;
+	max-width: 690px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+.krosovok_img {
+	padding: 70px 80px 70px 30px;
+}
+
+.card_item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.logo_img {
+	max-height: 35px;
+}
+
+.description {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	color: #9da1a6;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+.description_title {
+	font-size: 24px;
+	max-width: 65%;
+	margin-bottom: 18px;
+}
+
+.description_text {
+	margin-bottom: 27px;
+}
+
+.stars_items {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	cursor: pointer;
+}
+
+.stars {
+	margin-bottom: 29px;
+}
+
+.form {
+	opacity: .6;
+}
+
+.items_yello {
+	color: #f7bf16;
+}
+
+.form_select {
+	background: #111a28;
+	cursor: pointer;
+	min-height: 30px;
+	min-width: 70px;
+	color: #9da1a6;
+	margin-bottom: 30px;
+}
+
+.form_btn {
+	min-width: 185px;
+	min-height: 40px;
+	background: #111a28;
+	color: #9da1a6;
+}
+
+.form_btn:hover {
+	cursor: pointer;
+	background: #202835;
+}
+
+.wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 29%;
+}
+
+.radio {
+	padding-left: 164px;
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: #29e3ea;
+}
+
+a:hover {
+	border: 1px solid #7e838b;
+	border-radius: 50%;
+}
