@@ -18,49 +18,60 @@
 			</div>
 			<div class="card_item">
 				<div class="krosovok">
-					<img class="krosovok_img" src="img/kros.png" alt="krosovok">
-					<div class="radio">
-						<ul class="wrapper">
-							<li><a class="black" href="#"><i class="fas fa-circle"></i></a></li>
-							<li><a class="white" href="#"><i class="fas fa-circle"></i></a></li>
-							<li><a class="red" href="#"><i class="fas fa-circle"></i></a></li>
-							<li><a class="blue" href="#"><i class="fas fa-circle"></i></a></li>
-						</ul>
+					<div class="krosovok_paddinghack">
+						<img class="krosovok_img" src="img/kros.png" alt="krosovok">
 					</div>
-				</div>
-				<div class="description">
-					<h2 class="description_title">Nike SB Stefan Janoski Max</h2>
-					<h3 class="description_text">Unisex Skateboarding Shoe</h3>
-					<div class="stars">
-						<ul class="stars_items">
-							<li class="items_yello"><i class="fas fa-star"></i></li>
-							<li class="items_yello"><i class="fas fa-star"></i></li>
-							<li class="items_yello"><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-					</div>
-					<div class="form">
-						<form action="#" method="get">
-							<select class="form_select" name="Size">
-								<option value="#" selected>Size</option>
-								<option value="42">42</option>
-								<option value="43">43</option>
-								<option value="45">45</option>
-							</select>
-							<select class="form_select" name="Qty">
-								<option value="#" selected>Qty</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="5">5</option>
-							</select>
-							<input class="form_btn" type="submit" value="Add to card">
-						</form>
-					</div>
+					<ul class="radio_button">
+						<li>
+							<input  form="forma" id="black" type="radio" name="radio" >
+							<label class="black" for="black"></label>
+						</li>
+						<li>
+							<input  form="forma" id="white" type="radio" name="radio" >
+							<label class="white" for="white"></label>
+						</li>
+						<li>
+							<input  form="forma" id="red" type="radio" name="radio" >
+							<label class="red" for="red"></label>
+						</li>
+						<li>
+							<input  form="forma" id="blue" type="radio" name="radio" >
+							<label class="blue" for="blue"></label>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<div class="description">
+				<h2 class="description_title">Nike SB Stefan Janoski Max</h2>
+				<h3 class="description_text">Unisex Skateboarding Shoe</h3>
+				<ul class="stars_items">
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li><i class="fas fa-star"></i></li>
+					<li><i class="fas fa-star"></i></li>
+				</ul>
+				<div class="form">
+					<form id="forma" action="#" method="get">
+						<select class="form_select" name="Size" required>
+							<option value="" selected>Size</option>
+							<option value="42">42</option>
+							<option value="43">43</option>
+							<option value="45">45</option>
+						</select>
+						<select class="form_select" name="Qty" required>
+							<option value="" selected>Qty</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="5">5</option>
+						</select>
+						<input class="form_btn" type="submit" value="Add to card">
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script src="js/script.js"></script>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>

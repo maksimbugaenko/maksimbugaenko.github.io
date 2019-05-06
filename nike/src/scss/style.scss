@@ -21,12 +21,29 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.krosovok{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 80px;
+	min-width: 378px;
+}
+.krosovok_paddinghack{
+	display: block;
+	position: relative;
+	padding-top: 61.2%;
+}
 .krosovok_img{
-	padding: 70px 80px 70px 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 .card_item{
 	display: flex;
-
 }
 .logo_img{
 	max-height: 35px;
@@ -35,6 +52,7 @@ body {
 	display: flex;
 	color: #9da1a6;
 	flex-direction: column;
+	padding-bottom: 75px;
 }
 .description_title{
 	font-size: 24px;
@@ -48,8 +66,6 @@ body {
 	flex-direction: row;
 	display: flex;
 	cursor: pointer;
-}
-.stars{
 	margin-bottom: 29px;
 }
 .form{
@@ -76,28 +92,47 @@ body {
 	cursor: pointer;
 	background: #202835;
 }
-.wrapper{
+.radio_button{
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 29%;
-}
-.radio{
-	padding-left: 164px;
+	width: 21%;
+	label{
+		display: inline-block;
+		border-radius: 50%;
+		height: 11px;
+		width: 11px;
+		transition: all .2s ease;
+		cursor: pointer;
+		border: 2px solid;
+		border-color: #111a28;
+	}
+	input{
+		display: none;
+	}
+	[type="radio"]:checked + label {
+		border: 2px solid;
+		border-color: #7e838b;
+	}
 }
 .black{
-	color: black;
+	background-color:#1f273f;
 }
 .white{
-	color:white;
+	background-color:  white;
 }
 .red{
-	color:red;
+	background-color: red;
 }
 .blue{
-	color:#29e3ea;
+	background-color: #29e3ea;
+}
+a{
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 50%;
 }
 a:hover{
 	border: 1px solid #7e838b;
-	border-radius: 50%;
 }
