@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Nike</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="conteiner">
+		<div class="card">
+			<div class="logo">
+				<img class="logo_img" src="img/nike_logo.png" alt="logo">
+			</div>
+			<div class="card_item">
+				<div class="krosovok">
+					<div class="krosovok_paddinghack">
+						<img class="krosovok_img" src="img/kros.png" alt="krosovok">
+					</div>
+					<ul class="radio_button">
+						<li>
+							<input  form="forma" id="black" type="radio" name="radio" >
+							<label class="black" for="black"></label>
+						</li>
+						<li>
+							<input  form="forma" id="white" type="radio" name="radio" >
+							<label class="white" for="white"></label>
+						</li>
+						<li>
+							<input  form="forma" id="red" type="radio" name="radio" >
+							<label class="red" for="red"></label>
+						</li>
+						<li>
+							<input  form="forma" id="blue" type="radio" name="radio" >
+							<label class="blue" for="blue"></label>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<div class="description">
+				<h2 class="description_title">Nike SB Stefan Janoski Max</h2>
+				<h3 class="description_text">Unisex Skateboarding Shoe</h3>
+				<ul class="stars_items">
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li class="items_yello"><i class="fas fa-star"></i></li>
+					<li><i class="fas fa-star"></i></li>
+					<li><i class="fas fa-star"></i></li>
+				</ul>
+				<div class="form">
+					<form id="forma" action="#" method="get">
+						<select class="form_select" name="Size" required>
+							<option value="" selected>Size</option>
+							<option value="42">42</option>
+							<option value="43">43</option>
+							<option value="45">45</option>
+						</select>
+						<select class="form_select" name="Qty" required>
+							<option value="" selected>Qty</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="5">5</option>
+						</select>
+						<input class="form_btn" type="submit" value="Add to card">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
