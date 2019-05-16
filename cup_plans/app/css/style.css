@@ -62,7 +62,9 @@ body {
 	font-family: "Miso";
 	font-weight: bold;
 	text-align: center;
-	padding-bottom: 45px;
+	-webkit-box-flex: .2;
+	-ms-flex-positive: .2;
+	flex-grow: .2;
 }
 
 .name {
@@ -71,7 +73,9 @@ body {
 	color: #333;
 	font-family: "Miso";
 	text-align: center;
-	padding-bottom: 35px;
+	-webkit-box-flex: .2;
+	-ms-flex-positive: .2;
+	flex-grow: .2;
 }
 
 .text {
@@ -89,6 +93,7 @@ body {
 	min-height: 500px;
 }
 .card:nth-child(2) .how_much {
-	padding-bottom: 58px;
-	font-size: 86px;
+	-webkit-box-flex: .3;
+	-ms-flex-positive: .3;
+	flex-grow: .3;
 }
