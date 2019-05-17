@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "HansKendrick-Regular";
+	src: local("HansKendrick-Regular"), url("https://nomail.com.ua/files/woff/215d663ec607e25b1aac95fe9b0a5e72.woff") format("woff");
+}
+body{
+	font-family: "HansKendrick-Regular", sans-serif;
+	background: #e2e7ec;
+	a{
+		text-decoration: none;
+	}
+}
+.container{
+	width: 100%;
+	max-width: 1120px;
+	margin: auto;
+	min-height: 100vh;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.row{
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+	margin-bottom: 20px;
+}
+.content{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	justify-content: space-between;
+	bottom: 54px;
+	left: 45px;
+	// margin-top: -16%;
+	// padding: 50px;
+}
+.small{
+	background: #ffffff;
+	min-height: 540px;
+	display: flex;
+	flex-basis: 20%;
+}
+.content_h2{
+	color: #fff;
+	max-width: 70%;
+	font-size: 1.875rem;
+	font-weight: 400;
+}
+.large_link{
+	position: relative;
+}
+.description{
+	color: #dad2b6;
+	padding-bottom: 20px;
+}
+.small_description{
+	margin-bottom: 15px;
+	color: #a8a8a8;
+	font-size: .8125rem;
+	padding-bottom: 65px;
+}
+.small_h2{
+	font-size: 1.375rem;
+	line-height: 36px;
+	color: #1d1d1d;
+	font-weight: 900;
+}
+.small_content,.roja{
+	padding: 20px;
+}

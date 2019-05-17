@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "HansKendrick-Regular";
+	src: local("HansKendrick-Regular"), url("https://nomail.com.ua/files/woff/215d663ec607e25b1aac95fe9b0a5e72.woff") format("woff");
+}
+
+body {
+	font-family: "HansKendrick-Regular", sans-serif;
+	background: #e2e7ec;
+}
+body a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1120px;
+	margin: auto;
+	min-height: 100vh;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+
+.row {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.content {
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	bottom: 54px;
+	left: 45px;
+}
+
+.small {
+	background: #fff;
+	min-height: 540px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-preferred-size: 20%;
+	flex-basis: 20%;
+}
+
+.content_h2 {
+	color: #fff;
+	max-width: 70%;
+	font-size: 1.875rem;
+	font-weight: 400;
+}
+
+.large_link {
+	position: relative;
+}
+
+.description {
+	color: #dad2b6;
+	padding-bottom: 20px;
+}
+
+.small_description {
+	margin-bottom: 15px;
+	color: #a8a8a8;
+	font-size: .8125rem;
+	padding-bottom: 65px;
+}
+
+.small_h2 {
+	font-size: 1.375rem;
+	line-height: 36px;
+	color: #1d1d1d;
+	font-weight: 900;
+}
+
+.small_content,
+.roja {
+	padding: 20px;
+}
